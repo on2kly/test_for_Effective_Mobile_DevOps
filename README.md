@@ -39,7 +39,7 @@ test_for_Effective_Mobile_DevOps/
 
 ## 📝 Installation / Установка
 
-### English
+### English ну и по приколу по Русски
 ```bash
 # Clone the repository
 git clone https://github.com/username/test_for_Effective_Mobile_DevOps.git
