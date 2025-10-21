@@ -12,6 +12,7 @@ It logs process restarts and sends status to a monitoring server via HTTPS.
 ---
 
 ## 📂 Project Structure / Структура проекта
+
 test_for_Effective_Mobile_DevOps/
 ├── README.md # This file / Этот файл
 ├── scripts/
@@ -58,15 +59,6 @@ sudo ./install_monitoring.sh
 
 ---
 
-
-# Клонируем репозиторий
-git clone https://github.com/username/test_for_Effective_Mobile_DevOps.git
-cd test_for_Effective_Mobile_DevOps
-
-# Устанавливаем систему мониторинга
-sudo ./install_monitoring.sh
-
----
 
 
 🔍 How to Check / Проверка работы
