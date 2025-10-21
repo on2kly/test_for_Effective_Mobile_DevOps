@@ -1,0 +1,13 @@
+[Unit]
+Description=Timer for Test Process Monitoring
+Requires=monitoring-test.service
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=monitoring-test.service
+AccuracySec=1s
+Persistent=true
+
+[Install]
+WantedBy=timers.target
