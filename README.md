@@ -5,13 +5,13 @@
 
 This project monitors the `test` process on Linux.  
 It logs process restarts and sends status to a monitoring server via HTTPS.  
+
 Проект мониторит процесс `test` на Linux.  
 Логирует перезапуски процесса и отправляет статус на сервер мониторинга через HTTPS.
 
 ---
 
 ## 📂 Project Structure / Структура проекта
-
 test_for_Effective_Mobile_DevOps/
 ├── README.md # This file / Этот файл
 ├── scripts/
@@ -21,7 +21,6 @@ test_for_Effective_Mobile_DevOps/
 │ └── monitoring-test.timer # systemd timer unit / Юнит timer
 ├── install_monitoring.sh # Installation script / Скрипт установки
 └── uninstall_monitoring.sh # Uninstallation script / Скрипт удаления
-
 
 
 ---
@@ -57,6 +56,19 @@ cd test_for_Effective_Mobile_DevOps
 sudo ./install_monitoring.sh
 
 
+---
+
+
+# Клонируем репозиторий
+git clone https://github.com/username/test_for_Effective_Mobile_DevOps.git
+cd test_for_Effective_Mobile_DevOps
+
+# Устанавливаем систему мониторинга
+sudo ./install_monitoring.sh
+
+---
+
+
 🔍 How to Check / Проверка работы
 
 # Check timer status
@@ -77,8 +89,9 @@ cat /var/log/monitoring.log
 # Проверить процесс
 pgrep -x test
 
+
+---
+
 🧹 Uninstallation / Удаление
 
 sudo ./uninstall_monitoring.sh
-
-
