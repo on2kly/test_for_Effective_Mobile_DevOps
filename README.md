@@ -14,14 +14,14 @@ It logs process restarts and sends status to a monitoring server via HTTPS.
 ## 📂 Project Structure / Структура проекта
 
 test_for_Effective_Mobile_DevOps/
-├── README.md # This file / Этот файл
-├── scripts/
-│ └── monitor_test.sh # Monitoring script / Скрипт мониторинга
-├── systemd/
-│ ├── monitoring-test.service # systemd service unit / Юнит service
-│ └── monitoring-test.timer # systemd timer unit / Юнит timer
-├── install_monitoring.sh # Installation script / Скрипт установки
-└── uninstall_monitoring.sh # Uninstallation script / Скрипт удаления
+
+scripts/
+    monitor_test.sh # Monitoring script
+systemd/
+    monitoring-test.service # systemd service unit
+    monitoring-test.timer # systemd timer unit
+    install_monitoring.sh # Installation script
+    uninstall_monitoring.sh # Uninstallation script
 
 
 ---
